@@ -29,6 +29,9 @@ export default class TablaMultiplicarV2 extends Component {
       numeros: aux,
     });
   };
+  componentDidMount=()=>{
+    this.generarNumeros()
+  }
   render() {
     return (
       <div>
